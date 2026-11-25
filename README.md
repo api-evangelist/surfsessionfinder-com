@@ -1,4 +1,4 @@
-# surfsessionfinder-com
+# Surf Session Finder
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-surfsessionfinder-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://surfsessionfinder.com/
+Surf Session Finder provides a notification service that connects surfers with surf parks worldwide, offering real‑time alerts for uncrowded surf park sessions. By aggregating live availability data from partner wave pools, the platform lets users set preferences for location, skill level, and timing, then delivers timely notifications to help them book ideal sessions. The service also supports surf park operators by increasing utilization through targeted surfer matching.
+
+**Areas:** Surf Parks · Session Alerts · Wave Pools
+
+## Surf Session Finder on APIs.io
+
+Everything profiled for Surf Session Finder is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/surfsessionfinder-com/](https://apis.io/providers/surfsessionfinder-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Surf Session Finder Admin API](https://apis.io/apis/surfsessionfinder-com/surfsessionfinder-com-admin-api/) — The admin API from Surf Session Finder — 17 operation(s) for admin.
+- [Surf Session Finder Cron API](https://apis.io/apis/surfsessionfinder-com/surfsessionfinder-com-cron-api/) — The Cron API from Surf Session Finder — 3 operation(s) for cron.
+- [Surf Session Finder Health API](https://apis.io/apis/surfsessionfinder-com/surfsessionfinder-com-health-api/) — The Health API from Surf Session Finder — 1 operation(s) for health.
+- [Surf Session Finder SRF Session Finder API](https://apis.io/apis/surfsessionfinder-com/surfsessionfinder-com-srf-session-finder-api-api/) — The SRF Session Finder API API from Surf Session Finder — 1 operation(s) for srf session finder api.
+- [Surf Session Finder User API](https://apis.io/apis/surfsessionfinder-com/surfsessionfinder-com-user-api/) — The user API from Surf Session Finder — 9 operation(s) for user.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Surf Session Finder Agentic Access](https://apis.io/agentic-access/surfsessionfinder-com/surfsessionfinder-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AdminStatsResponse](https://apis.io/schemas/surfsessionfinder-com/surfsessionfinder-com-admin-stats-response/)
+- [Body_send_test_push_api_send_test_push_post](https://apis.io/schemas/surfsessionfinder-com/surfsessionfinder-com-body-send-test-push-api-send-test-push-post/)
+- [EmailVerificationResponse](https://apis.io/schemas/surfsessionfinder-com/surfsessionfinder-com-email-verification-response/)
+- [SessionResponse](https://apis.io/schemas/surfsessionfinder-com/surfsessionfinder-com-session-response/)
+- [UserPreferenceRequest](https://apis.io/schemas/surfsessionfinder-com/surfsessionfinder-com-user-preference-request/)
+- [UserPreferenceResponse](https://apis.io/schemas/surfsessionfinder-com/surfsessionfinder-com-user-preference-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Surfsessionfinder Com Context](https://apis.io/jsonld/surfsessionfinder-com/surfsessionfinder-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Surf Session Finder API Rules](https://apis.io/rules/surfsessionfinder-com/surfsessionfinder-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Surf Session Finder Domain Security](https://apis.io/security/surfsessionfinder-com/surfsessionfinder-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://surfsessionfinder.com/)
+- [Blog](https://www.surfsessionfinder.com/blog/)
+- [Terms of service](https://www.surfsessionfinder.com/terms/)
+- [Privacy policy](https://www.surfsessionfinder.com/terms/)
+
+## API Evangelist rating
+
+**Kin Score 32.8** — thin · rubric 0.28.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 51.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 8.8 |
+| Access clarity | 17.0 |
+
+**Agent readiness 31.9** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/surfsessionfinder-com/](https://apis.io/providers/surfsessionfinder-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Surf Session Finder: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/surfsessionfinder-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
